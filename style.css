@@ -71,30 +71,33 @@ input:focus {
     outline: none;
 }
 /* Donate Today Section */
-.donate-today {
+#donate-today {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     text-align: center;
     padding: 5% 0 0 0;
 }
-.donate-today p {
+#donate-today p {
     padding-bottom: 60px;
 }
-.donate-today span {
+#donate-amount {
+    display: flex;
+}
+#donate-amount div {
     font-size: 30px;
     padding: 35px 12px;
     margin: 10px;
     font-weight: bold;
     background-color: #fafafa;
 }
-.donate-today .active {
+#donate-today .active {
     color: #ff5959;
     background-color: #ffeeee;
     border: 3px solid #ff5959;
     border-radius: 5px;
 }
-.donate-today .amount-field {
+#donate-today .amount-field {
     border-bottom: 1px solid #dadada;
     margin-bottom: 40px;
 }
@@ -105,12 +108,12 @@ input:focus {
     padding-bottom: 10px;
     text-align: center;
 }
-.donate-today .button {
+#donate-today .button {
     margin-top: 20px;
 }
 
 /* Donate Plan Section */
-.donate-plan,
+#donate-plan,
 .contribute-area-1,
 .contribute-area-2 {
     width: 90%;
@@ -146,7 +149,7 @@ input:focus {
 }
 
 /* Contribution area Section */
-.contribution-area {
+#contribution-area {
     margin: 8% 15px;
 }
 .contribute-area-1,
@@ -167,17 +170,17 @@ input:focus {
 }
 
 /* Update Section */
-.update {
+#update {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     text-align: center;
     margin-bottom: 8%;
 }
-.update p {
+#update p {
     padding: 0 10% 3%;
 }
-.update input {
+#update input {
     background-color: #d9d9d9;
     padding: 10px;
     border: 1px solid #d9d9d9;
@@ -197,17 +200,17 @@ input:focus {
 }
 
 /* Ideas Section */
-.ideas {
+#ideas {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     margin-bottom: 8%;
 }
-.ideas h2,
-.ideas > p {
+#ideas h2,
+#ideas > p {
     text-align: center;
 }
-.ideas > p {
+#ideas > p {
     padding-bottom: 30px;
 }
 .idea-area {
