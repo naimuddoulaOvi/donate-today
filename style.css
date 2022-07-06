@@ -90,6 +90,7 @@ input:focus {
     margin: 10px;
     font-weight: bold;
     background-color: #fafafa;
+    width: 20%;
 }
 #donate-today .active {
     color: #ff5959;
