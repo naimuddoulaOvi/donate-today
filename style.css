@@ -83,6 +83,7 @@ input:focus {
 }
 #donate-amount {
     display: flex;
+    margin-bottom: 10%;
 }
 #donate-amount div {
     font-size: 30px;
