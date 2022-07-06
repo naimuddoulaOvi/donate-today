@@ -1,0 +1,251 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    min-width: 1000px;
+}
+h1 {
+    font-size: 65px;
+}
+h2 {
+    font-size: 45px;
+    color: #121212;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+p {
+    font-size: 18px;
+    color: #707070;
+    line-height: 24px;
+}
+img {
+    max-width: 100%;
+}
+.button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff5959;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-width {
+    width: 50%;
+}
+.half-width p:last-child {
+    padding-top: 15px;
+}
+.donate-amount {
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+/* Header Section */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(img/donation1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+header section {
+    width: 60%;
+    text-align: center;
+    padding: 10% 0;
+}
+header section h1,
+header section p {
+    color: white;
+}
+header section p {
+    padding: 0 13% 3%;
+}
+input:focus {
+    outline: none;
+}
+/* Donate Today Section */
+.donate-today {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+.donate-today p {
+    padding-bottom: 60px;
+}
+.donate-today span {
+    font-size: 30px;
+    padding: 35px 15px;
+    margin: 10px;
+    font-weight: bold;
+    background-color: #fafafa;
+}
+.donate-today .active {
+    color: #ff5959;
+    background-color: #ffeeee;
+    border: 3px solid #ff5959;
+    border-radius: 5px;
+}
+.donate-today .amount-field {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 40px;
+}
+.amount-field input[type="text"] {
+    border: none;
+    font-size: 18px;
+    color: #b3b3b3;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.donate-today .button {
+    margin-top: 20px;
+}
+
+/* Donate Plan Section */
+.donate-plan,
+.contribute-area-1,
+.contribute-area-2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donate-plan-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.donate-plan-area {
+    display: flex;
+}
+.donate-plan-area div {
+    padding: 5% 5% 4% 1.5%;
+    margin: 15px;
+    border-radius: 10px;
+    width: 33%;
+}
+.donate-plan-area p {
+    font-size: 16px;
+}
+.donate-area-1 {
+    background-color: #edf5f6;
+}
+.donate-area-2 {
+    background-color: #ffeeee;
+}
+.donate-area-3 {
+    background-color: #fff4d6;
+}
+
+/* Contribution area Section */
+.contribution-area {
+    margin: 8% 15px;
+}
+.contribute-area-1,
+.contribute-area-2 {
+    display: flex;
+}
+.contribute-area-1 .half-width,
+.contribute-area-2 .half-width {
+    padding-right: 7%;
+}
+.contribute-area-1 {
+    margin-bottom: 7%;
+}
+.contribute-area-1 h2,
+.contribute-area-2 h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Update Section */
+.update {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.update p {
+    padding: 0 10% 3%;
+}
+.update input {
+    background-color: #d9d9d9;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+}
+.subscribe {
+    padding: 10px 40px 11px 40px;
+    margin-left: -3px;
+    color: #fff;
+    background-color: #ff5959;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 13px;
+}
+.subscribe-area {
+    padding: 10% 20%;
+    background-color: #fff4d6;
+}
+
+/* Ideas Section */
+.ideas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 8%;
+}
+.ideas h2,
+.ideas > p {
+    text-align: center;
+}
+.ideas > p {
+    padding-bottom: 30px;
+}
+.idea-area {
+    display: flex;
+}
+
+.idea-area img {
+    width: 50px;
+    float: right;
+    padding-top: 7%;
+    margin-right: 4%;
+}
+.idea1,
+.idea2,
+.idea3,
+.idea4 {
+    border: 1px solid #707070;
+    padding: 15px;
+    margin: 0 20px 20px 0;
+}
+.idea1 p,
+.idea2 p,
+.idea3 p,
+.idea4 p {
+    padding-right: 15%;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #0b0d17;
+    padding: 3%;
+}
+footer h3 {
+    font-size: 36px;
+    color: #ff5959;
+    margin: 0;
+}
+footer p {
+    font-size: 14px;
+    color: #d9dbe1;
+}
