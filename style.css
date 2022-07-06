@@ -79,11 +79,11 @@ input:focus {
     padding: 5% 0 0 0;
 }
 #donate-today p {
-    padding-bottom: 60px;
+    padding-bottom: 4%;
 }
 #donate-amount {
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 #donate-amount div {
     font-size: 30px;
@@ -115,6 +115,10 @@ input:focus {
 }
 
 /* Donate Plan Section */
+#donate-plan {
+    padding-top: 3%;
+}
+
 #donate-plan,
 .contribute-area-1,
 .contribute-area-2 {
