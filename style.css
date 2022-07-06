@@ -7,6 +7,7 @@ body {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     min-width: 1000px;
+    margin: 0;
 }
 h1 {
     font-size: 65px;
@@ -82,7 +83,7 @@ input:focus {
 }
 .donate-today span {
     font-size: 30px;
-    padding: 35px 15px;
+    padding: 35px 12px;
     margin: 10px;
     font-weight: bold;
     background-color: #fafafa;
